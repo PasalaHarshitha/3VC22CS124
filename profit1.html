@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nonprofit Community Hub</title>
+  <style>
+    /* Basic styling */
+     .center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;}
+	title{
+	color: white;
+	}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+	header{
+	background-color: black;
+      color: white;
+      padding: 2em;
+      text-align: center;
+}
+     footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+	
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1em;
+    }
+	
+
+    h1 {
+      color: #white;
+    }
+	h2{
+	color:#333;}
+    .cta-button {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .hero, .section {
+      padding: 2em 0;
+    }
+    .donation-tracker {
+      background-color: #66CDAA;
+      padding: 1em;
+      border-radius: 5px;
+      text-align: center;
+      color: white;
+    }
+    .form input, .form textarea, .form select {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form button {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+	      <h1>Nonprofit Community Hub</h1>
+      <nav>
+	
+        <a href="#events">Events</a> |
+        <a href="#donate">Donate</a> |
+        <a href="#volunteer">Volunteer</a> |
+        <a href="#impact">Impact Stories</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Empowering Communities, Changing Lives</h2>
+      <p>Join us in making a difference through local initiatives and global efforts.</p>
+      <a href="#volunteer" class="cta-button">Join as a Volunteer</a>
+      <a href="#events" class="cta-button">See Upcoming Events</a>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="section">
+    <div class="container">
+      <h2>Upcoming Events</h2>
+      <p>Check out our calendar to see and participate in upcoming events.</p>
+      <div id="event-calendar">
+        <!-- Placeholder for an event calendar -->
+      </div>
+    </div>
+  </section>
+
+<img src="https://th.bing.com/th/id/OIP.WGCVkrXfiMM5ap0O4QRUuwHaD3?w=341&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="center" alt="poverty">
+
+
+
+  <!-- Donation Tracker Section -->
+  <section id="donate" class="section">
+    <div class="container">
+      <h2>Support Our Cause</h2>
+      <div class="donation-tracker">
+        <p><strong>Donation Goal:</strong> $50,000</p>
+        <p><strong>Amount Raised:</strong> $30,000</p>
+        <progress value="30000" max="50000"></progress>
+        <p>Your contributions make a real difference!</p>
+      </div>
+	<a href="https://static.vecteezy.com/system/resources/previews/002/557/391/original/qr-code-for-scanning-free-vector.jpg" width=250px height=250px>
+      <button class="cta-button">Donate Now</button>
+	</a>
+    </div>
+  </section>
+
+  <!-- Volunteer Sign-Up Section -->
+  <section id="volunteer" class="section">
+    <div class="container">
+      <h2>Become a Volunteer</h2>
+      <p>Sign up to join our team and make an impact in your community.</p>
+      <form class="form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <select required>
+          <option value="" disabled selected>Preferred Role</option>
+          <option value="event">Event Volunteer</option>
+          <option value="admin">Administrative Support</option>
+          <option value="fundraiser">Fundraising Assistant</option>
+        </select>
+        <textarea placeholder="Availability" rows="4"></textarea>
+        <button type="submit">Sign Up to Volunteer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Impact Stories Section -->
+  <section id="impact" class="section">
+    <div class="container">
+      <h2>Our Impact</h2>
+      <p>See the stories of those who have been helped by your support.</p>
+      <div id="impact-stories">
+        <!-- Placeholder for impact stories -->
+        <div>
+          <h3>Story 1</h3>
+          <p>A community member shares their experience...</p>
+        </div>
+        <div>
+          <h3>Story 2</h3>
+          <p>Another story of positive change...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Contact Us: info@nonprofit.org | Phone: (123) 456-7890</p>
+      <form>
+        <label for="newsletter">Subscribe to our Newsletter</label>
+        <input type="email" id="newsletter" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p>&copy; 2023 Nonprofit Community Hub. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
